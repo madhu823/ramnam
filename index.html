@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RamNaam</title>
+  <link rel="stylesheet" href="/css/Home.css">
+  <link rel="stylesheet" href="/css/donation.css">
+  <link rel="stylesheet" href="/css/loginPoP.css">
+  <link rel="shortcut icon" href="img/logo_.png">
+
+<body>
+  <div class="Primarycontainer">
+    <div class="container_nav">
+      <nav class="navbar_1">
+        <div id="logo">
+          <img src="img/logo_.png" alt="image not avaliable">
+        </div>
+        <div class="Mainmiddlepart">
+          <marquee behavior="scroll" style="color: red;" direction="left">|| राम || || राम || || राम || || राम || || राम
+            || || राम || || राम
+            || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || ||
+            राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || </marquee>
+          <div class="MainHeading">
+            <div id="MainClick"> <a href="/Ramnaamlekhan.html">|| निशुल्क राम राम लिखने के लिए क्लिक करें ||</a></div>
+          </div>
+        </div>
+        <div class="nav1donationpart">
+          <button onclick="document.getElementById('DonationPopUpbtn').style.display='block'"
+            class="Navbar_1_Donation_pay_button" style="width:auto;" data-loading-text="Please wait...">Donate
+            Now</button>
+
+          <div id="DonationPopUpbtn" class="Donation_maincontainer">
+            <span onclick="document.getElementById('DonationPopUpbtn').style.display='none'" class="closeDonationPop"
+              title="closeDonationPop Modal">&times;</span>
+            <div class="Donation_main_Primary_Pop_container">
+              <div class="Donation_Pop_container_column1">
+                <h2>Paytm के माध्यम से दान करने के लिए बारकोड स्कैन करे..|</h2>
+              </div>
+              <div class="Donation_Pop_container_column2">
+                <img id="donation_barcodeimage" src="/img/barcode.jpg" alt="" height="200px" width="200px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar_2">
+        <div class="navbarItem">
+          <div class="topnav">
+            <a href="#index.html">होम</a>
+            <div class="dropdown">
+              <button class="dropbtn">हनुमान जी</button>
+              <div class="dropdown-content">
+                <a href="hanumanchalisha.html">हनुमान चालीसा</a>
+                <a href="hanuman_ji_aarti.html">हनुमान जी आरती</a>
+                <a href="hanuman_astak">हनुमान अष्टक</a>
+              </div>
+            </div>
+            <a href="shreeramrakshakshrot.html">श्री राम रक्षा स्तोत्र</a>
+            <a href="shreeRamnaamsalakha.html">श्रीराम शलाका प्रश्नावली</a>
+            <a href="Ramnamkimahima.html">राम नाम की महिमा</a>
+            <a href="https://www.youtube.com/channel/UChBLSKnsCvLGc9oGy67_ksA.html" target="_blank">यूट्यूब</a>
+            <a href="contact.html" target="_blank">संपर्क करें</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section class="divider_parallal_background_image">
+      <div class="navbar_3_MiddlePartcontent">
+        <div class="login_loginPart">
+          <ul>
+            <li id="item4">
+              <button onclick="document.getElementById('Login_POPid01').style.display='block'"
+                style="width:auto;">Login</button>
+              <div id="Login_POPid01" class="LoginPop_Cont_modal">
+                <form class="Loginpop_content animate" action="/action_page.php" method="post">
+                  <span onclick="document.getElementById('Login_POPid01').style.display='none'" class="close"
+                    title="Close LoginPop_Cont_modal">&times;</span>
+
+                  <div class="LoginPop_container1">
+
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <!-- <button class="LoginPop_containerbtn" type="submit" >Login</button> -->
+
+                    <a href="/Ramnaamlekhan.html">Login</button></a>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+
+                  <div class="LoginPop_container2" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('Login_POPid01').style.display='none'"
+                      class="cancelbtn">Cancel</button>
+                    <button type="button" onclick="document.getElementById('Login_POPid01').style.display='none'"
+                      class="cancelbtn">Sign Up</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li id="item4">
+              <button onclick="document.getElementById('Login_POPid01').style.display='block'"
+                style="width:auto;">Register</button>
+              <div id="Login_POPid01" class="LoginPop_Cont_modal">
+                <form class="Loginpop_content animate" action="/action_page.php" method="post">
+                  <span onclick="document.getElementById('Login_POPid01').style.display='none'" class="close"
+                    title="Close LoginPop_Cont_modal">&times;</span>
+
+                  <div class="LoginPop_container1">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button class="LoginPop_containerbtn" type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+
+                  <div class="LoginPop_container2" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('Login_POPid01').style.display='none'"
+                      class="cancelbtn">Cancel</button>
+                    <button type="button" onclick="document.getElementById('Login_POPid01').style.display='none'"
+                      class="cancelbtn">Sign Up</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar_4_MIddlePartcontent">
+          <div class="inpartnavbar_4">
+
+            कवन सो काज कठिन जग माहीं। &emsp;&emsp;&emsp;&emsp; <br> &emsp;&emsp;&emsp;&emsp; जो नहिं होइ तात तुम्ह
+            पाहीं॥<br>
+            रामकथा सुंदर कर तारी। &emsp;&emsp;&emsp;&emsp; <br> &emsp;&emsp;&emsp;&emsp; संशय बिहग उड़व निहारी।
+
+          </div>
+        </div>
+        <div class="navbar_3_middle_image_slider_container">
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image05.jpg" style="width:400px">
+          </div>
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image10.jpg" style="width:400px">
+          </div>
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image11.jpg" style="width:400px">
+          </div>
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image12.jpg" style="width:400px">
+          </div>
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image13.jpg" style="width:400px">
+          </div>
+
+          <div class="navbar_3_middle_image_slider navbar_3_middle_fade">
+            <img src="img/image14.jpg" style="width:400px">
+          </div>
+          <div style="text-align:center">
+            <span class="navbar_3_middle_dot"></span>
+            <span class="navbar_3_middle_dot"></span>
+            <span class="navbar_3_middle_dot"></span>
+            <span class="navbar_3_middle_dot"></span>
+            <span class="navbar_3_middle_dot"></span>
+            <span class="navbar_3_middle_dot"></span>
+          </div>
+        </div>
+      </div>
+      <div class="Home_diveder_content">
+        <div class="Home_content">
+          <div class="Home_Quote">
+            <h2>|| राम नाम लेख़न बेबसाइट मे आप का स्वागत हें ||</h2>
+            <h3>महामंत्र जोइ जपत महेसू । कासीं मुकुति हेतु उपदेसू ||<br>
+              महिमा जासु जान गनराऊ। प्रथम पूजिअत नाम प्रभाऊ ||</h3>
+          </div>
+        </div>
+        <div class="Home_Donation_Primary_Content">
+          <div class="Home_Donation_Content">
+            <h4>Make a Donation Now!</h4>
+            <form id="paypal_donation_by" class="form_text_color">
+              <div class="form-group_donation">
+                <label><strong>I Want to Donate for</strong></label><br>
+                <select name="item_name" class="Donation_form-control">
+                  <option value="RamNaam Promoters">RamNaam Lekhan</option>
+                </select>
+              </div>
+              <div class="form-group_donation">
+                <label><strong>Currency</strong></label><br>
+                <select name="currency_code" class="Donation_form-control">
+                  <option value="INR" selected="selected">INR - Indian Rupee</option>
+                </select>
+              </div>
+              <div class="form-group_donation">
+                <button onclick="document.getElementById('DonationPopUpbtn').style.display='block'" type="submit"
+                  class="Donation_pay_button" style="width:auto;" data-loading-text="Please wait...">Donate Now</button>
+              </div>
+              <div id="DonationPopUpbtn" class="Donation_maincontainer">
+                <span onclick="document.getElementById('DonationPopUpbtn').style.display='none'"
+                  class="closeDonationPop" title="closeDonationPop Modal">&times;</span>
+                <div class="Donation_main_Primary_Pop_container">
+                  <div class="Donation_Pop_container_column1">
+                    <h2>Paytm के माध्यम से दान करने के लिए बारकोड स्कैन करे..|</h2>
+                  </div>
+                  <div class="Donation_Pop_container_column2">
+                    <img id="donation_barcodeimage" src="/img/barcode.jpg" alt="" height="200px" width="200px">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="AddsampleVideo___1">
+        <div class="YoububeadvContainer1">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/58Uzyqj1ZhQ">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/I39ra8AfGwI">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/5ecmUbdDPsU">
+          </iframe>
+        </div>
+        <div class="YoububeadvContainer2">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/_hJU6rasc7Y">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/EOFCyAWtPTE">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/U-cyABXJJm0">
+          </iframe>
+        </div>
+        <div class="YoububeadvContainer3">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/EOFCyAWtPTE?controls=0">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/I39ra8AfGwI?playlist=I39ra8AfGwI&loop=1">
+          </iframe>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/5ecmUbdDPsU?autoplay=1&mute=1">
+          </iframe>
+        </div>
+      </div>
+      <div class="Addsampleimage___1">
+        <div class="imagesampleadvContainer1">
+          <div class="Home_image_main_column">
+            <div class="Home_image_main_row">
+              <img src="/img/image13.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img//image14.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image15.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image17.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image18.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image19.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image20.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image21.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="Home_image_main_row">
+              <img src="/img/image22.jpg" alt="Mountains" style="width:100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="Home_Second_footer">
+      <div class="row">
+        <div class="col-sm">
+          हमारा उद्धेष्य इस बेव साईट से बस इतना है की हम सभी राम नाम लिख कर उस ईश्वर से नाता जोडें जिसने हमें ये मानव
+          जीवन दिया है हर कर्तव्य से बड़कर ये हमारा पहला कर्तव्य बनता है कि हम उस ईष्वर को हमेषा याद रखें जिसने हमें ये
+          जीवन देकर इस दुनियाँ में भेजा है।
+        </div>
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="Home_Main_footer">
+      <div class="row">
+        <div class="col-sm">
+          राम नाम लेखन Copyright ©2017 . All Rights Reserved
+          <div class="row">
+            Developed By ........</br>
+            Designed By MSP
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="HomePage_Last_footer_2">
+      <marquee behavior="scroll" direction="left">|| राम || || राम || || राम || || राम || || राम || || राम || ||
+        राम
+        || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम ||
+        ||
+        राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम
+        || || राम || || राम || || राम || || राम || </marquee>
+    </div>
+
+  </div>
+  <script src="/js/mainmiddle.js"></script>
+  <script src="/js/DonationPopUp.js"> </script>
+  <script src="/js/login.js"></script>
+  <script src="/js/signUp.js"></script>
+  <script>
+    // Get the modal
+    var LoginPop_Cont_modal = document.getElementById('Login_POPid01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == LoginPop_Cont_modal) {
+        var LoginPop_Cont_modal = document.getElementById('Login_POPid01');
+      }
+    }
+  </script>
+  <script>
+    // Get the modal
+    var LoginPop_Cont_modal = document.getElementById('Login_POPid02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == LoginPop_Cont_modal) {
+        var LoginPop_Cont_modal = document.getElementById('Login_POPid02');
+      }
+    }
+  </script>
+
+</body>
+
+</html>

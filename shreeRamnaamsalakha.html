@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RamNaam</title>
+  <link rel="stylesheet" href="/css/Home.css">
+  <link rel="stylesheet" href="/css/donation.css">
+  <link rel="stylesheet" href="/css/shreeramnamsalakha.css">
+
+
+<body>
+  <div class="Primarycontainer">
+    <div class="container_nav">
+      <nav class="navbar_1">
+        <div id="logo">
+          <img src="img/logo_.png" alt="image not avaliable">
+        </div>
+        <div class="Mainmiddlepart">
+          <marquee behavior="scroll" style="color: red;" direction="left">|| राम || || राम || || राम || || राम || || राम
+            || || राम || || राम
+            || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || ||
+            राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || </marquee>
+          <div class="MainHeading">
+            <div id="MainClick"> <a href="#">|| निशुल्क राम राम लिखने के लिए क्लिक करें ||</a></div>
+          </div>
+        </div>
+        <div class="nav1donationpart">
+          <button onclick="document.getElementById('DonationPopUpbtn').style.display='block'"
+            class="Navbar_1_Donation_pay_button" style="width:auto;" data-loading-text="Please wait...">Donate
+            Now</button>
+
+          <div id="DonationPopUpbtn" class="Donation_maincontainer">
+            <span onclick="document.getElementById('DonationPopUpbtn').style.display='none'" class="closeDonationPop"
+              title="closeDonationPop Modal">&times;</span>
+            <div class="Donation_main_Primary_Pop_container">
+              <div class="Donation_Pop_container_column1">
+                <h2>Paytm के माध्यम से दान करने के लिए बारकोड स्कैन करे..|</h2>
+              </div>
+              <div class="Donation_Pop_container_column2">
+                <img id="donation_barcodeimage" src="/img/barcode.jpg" alt="" height="200px" width="200px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar_2">
+        <div class="navbarItem">
+          <div class="topnav">
+            <a href="#index.html">होम</a>
+            <div class="dropdown">
+              <button class="dropbtn">हनुमान जी</button>
+              <div class="dropdown-content">
+                <a href="hanumanchalisha.html">हनुमान चालीसा</a>
+                <a href="hanuman_ji_aarti.html">हनुमान जी आरती</a>
+                <a href="hanuman_astak">हनुमान अष्टक</a>
+              </div>
+            </div>
+            <a href="shreeramrakshakshrot.html">श्री राम रक्षा स्तोत्र</a>
+            <a href="shreeRamnaamsalakha.html">श्रीराम शलाका प्रश्नावली</a>
+            <a href="Ramnamkimahima.html">राम नाम की महिमा</a>
+            <a href="https://www.youtube.com/channel/UChBLSKnsCvLGc9oGy67_ksA.html" target="_blank">यूट्यूब</a>
+            <a href="contact.html" target="_blank">संपर्क करें</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="divider_parallal_background_image">
+      <div class="ramnamsalakha_Homecontainer">
+        <div class="ramnamsalakha_Maincontentstart">
+          <h1>राम शलाका - Ram Shalaka</h1>
+          <img src="/img/Rama01.jpg" alt="Ram Shalaka" title="Ram Shalaka" style="height: 200px; width: 300px;">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="ContentDiv mgama" id="resultDiv"></div>
+        
+            <div id="ramshalakha" class="ramshalakha">
+              <a class="doha_frame">
+                <span onclick="showDoha('7','1');" id="1">सु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('3','2');" id="2">प्र</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('1','3');" id="3">उ</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('4','4');" id="4">बि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('9','5');" id="5">हो</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('5','6');" id="6">मु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('2','7');" id="7">ग</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('6','8');" id="8">ब</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('8','9');" id="9">सु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('7','10');" id="10">नु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('3','11');" id="11">बि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('1','12');" id="12">घ</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('4','13');" id="13">धि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('9','14');" id="14">इ</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('5','15');" id="15">द</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('2','16');" id="16">र</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('6','17');" id="17">रु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('8','18');" id="18">फ</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('7','19');" id="19">सि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('3','20');" id="20">सि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('1','21');" id="21">रहिं</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('4','22');" id="22">बस</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('9','23');" id="23">हि</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('5','24');" id="24">मं</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('2','25');" id="25">ल</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('6','26');" id="26">न</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('8','27');" id="27">ल</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('7','28');" id="28">य</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('3','29');" id="29">न</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('1','30');" id="30">अं</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('4','31');" id="31">सुज</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('9','32');" id="32">सो</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('5','33');" id="33">ग</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('2','34');" id="34">सु</span>
+              </a>
+              <a class="doha_frame">
+                <span onclick="showDoha('6','35');" id="35">कु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','36');" id="36">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','37');" id="37">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','38');" id="38">ग</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','39');" id="39">त</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','40');" id="40">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','41');" id="41">इ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','42');" id="42">ल</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','43');" id="43">धा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','44');" id="44">बे</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','45');" id="45">नो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','46');" id="46">त्य</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','47');" id="47">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','48');" id="48">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','49');" id="49">कु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','50');" id="50">जो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','51');" id="51">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','52');" id="52">रि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','53');" id="53">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','54');" id="54">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','55');" id="55">अ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','56');" id="56">की</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','57');" id="57">हो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','58');" id="58">सं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','59');" id="59">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','60');" id="60">य</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','61');" id="61">पु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','62');" id="62">सु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','63');" id="63">थ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','64');" id="64">सी</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','65');" id="65">जे</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','66');" id="66">इ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','67');" id="67">ग</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','68');" id="68">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','69');" id="69">सं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','70');" id="70">क</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','71');" id="71">रे</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','72');" id="72">हो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','73');" id="73">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','74');" id="74">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','75');" id="75">नि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','76');" id="76">त</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','77');" id="77">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','78');" id="78">त</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','79');" id="79">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','80');" id="80">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','81');" id="81">हुँ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','82');" id="82">ह</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','83');" id="83">ब</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','84');" id="84">ब</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','85');" id="85">प</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','86');" id="86">चि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','87');" id="87">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','88');" id="88">हिं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','89');" id="89">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','90');" id="90">तु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','91');" id="91">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','92');" id="92">का</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','93');" id="93">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','94');" id="94">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','95');" id="95">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','96');" id="96">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','97');" id="97">मि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','98');" id="98">मी</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','99');" id="99">म्हा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','100');" id="100">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','101');" id="101">जा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','102');" id="102">हू</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','103');" id="103">हीं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','104');" id="104">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','105');" id="105">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','106');" id="106">ता</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','107');" id="107">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','108');" id="108">रे</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','109');" id="109">री</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','110');" id="110">हृ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','111');" id="111">का</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','112');" id="112">फ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','113');" id="113">खा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','114');" id="114">जू</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','115');" id="115">ई</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','116');" id="116">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','117');" id="117">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','118');" id="118">पू</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','119');" id="119">द</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','120');" id="120">ल</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','121');" id="121">नि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','122');" id="122">को</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','123');" id="123">जो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','124');" id="124">गो</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','125');" id="125">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','126');" id="126">मु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','127');" id="127">ज</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','128');" id="128">य</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','129');" id="129">ने</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','130');" id="130">मनि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','131');" id="131">क</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','132');" id="132">ज</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','133');" id="133">प</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','134');" id="134">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','135');" id="135">ल</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','136');" id="136">हि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','137');" id="137">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','138');" id="138">मि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','139');" id="139">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','140');" id="140">रि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','141');" id="141">ग</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','142');" id="142">द</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','143');" id="143">न्मु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','144');" id="144">ख</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','145');" id="145">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','146');" id="146">खि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','147');" id="147">जि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','148');" id="148">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','149');" id="149">त</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','150');" id="150">जं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','151');" id="151">सिं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','152');" id="152">ख</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','153');" id="153">नु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','154');" id="154">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','155');" id="155">को</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','156');" id="156">मि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','157');" id="157">निज</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','158');" id="158">र्क</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','159');" id="159">ग</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','160');" id="160">धु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','161');" id="161">ध</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','162');" id="162">सु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','163');" id="163">का</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','164');" id="164">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','165');" id="165">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','166');" id="166">गु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','167');" id="167">ब</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','168');" id="168">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','169');" id="169">अ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','170');" id="170">रि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','171');" id="171">नि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','172');" id="172">म</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','173');" id="173">ल</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','174');" id="174">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','175');" id="175">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','176');" id="176">ढ़</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','177');" id="177">ती</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','178');" id="178">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','179');" id="179">क</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','180');" id="180">भ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','181');" id="181">ना</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','182');" id="182">पु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','183');" id="183">व</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','184');" id="184">अ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','185');" id="185">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','186');" id="186">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','187');" id="187">ल</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','188');" id="188">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','189');" id="189">ए</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','190');" id="190">तु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','191');" id="191">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','192');" id="192">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','193');" id="193">नु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','194');" id="194">वै</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','195');" id="195">थ</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','196');" id="196">सि</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','197');" id="197">हु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','198');" id="198">सु</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','199');" id="199">म्हा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','200');" id="200">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','201');" id="201">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','202');" id="202">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','203');" id="203">स</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','204');" id="204">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','205');" id="205">त</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','206');" id="206">न</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','207');" id="207">ख</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','208');" id="208">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','209');" id="209">ज</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','210');" id="210">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','211');" id="211">र</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','212');" id="212">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','213');" id="213">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','214');" id="214">ला</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','215');" id="215">धी</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','216');" id="216">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('7','217');" id="217">री</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('3','218');" id="218">ा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('1','219');" id="219">हू</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('4','220');" id="220">हीं</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('9','221');" id="221">खा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('5','222');" id="222">जू</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('2','223');" id="223">ई</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('6','224');" id="224">रा</span>
+              </a>
+              <a href="#doha_result" class="doha_frame">
+                <span onclick="showDoha('8','225');" id="225">रे</span>
+              </a>
+            </div>	
+          </div>	
+          
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>      
+    </div>
+
+    </section>
+    <div class="Home_Second_footer">
+      <div class="row">
+        <div class="col-sm">
+          हमारा उद्धेष्य इस बेव साईट से बस इतना है की हम सभी राम नाम लिख कर उस ईश्वर से नाता जोडें जिसने हमें ये मानव
+          जीवन दिया है हर कर्तव्य से बड़कर ये हमारा पहला कर्तव्य बनता है कि हम उस ईष्वर को हमेषा याद रखें जिसने हमें ये
+          जीवन देकर इस दुनियाँ में भेजा है।
+        </div>
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="Home_Main_footer">
+      <div class="row">
+        <div class="col-sm">
+          राम नाम लेखन Copyright ©2017 . All Rights Reserved
+          <div class="row">
+            Developed By ........</br>
+            Designed By MSP
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="HomePage_Last_footer_2">
+      <marquee behavior="scroll" direction="left">|| राम || || राम || || राम || || राम || || राम || || राम || ||
+        राम
+        || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम ||
+        ||
+        राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम || || राम
+        || || राम || || राम || || राम || || राम || </marquee>
+    </div>
+
+  </div>
+  <script src="/js/DonationPopUp.js"> </script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login_loginPart ul li button{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(255, 133, 63);
+    font-size:14px;
+    padding: 10px 10px;
+    border: 1px solid rgb(255, 133, 63);
+  }
+
+  .cancelbtn{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(90, 55, 22);
+    font-size:14px;
+    width: 50%;
+    padding: 10px 10px;
+    border: 1px solid rgb(238, 237, 236);
+
+  }
+  
+
+  .login_loginPart ul li button:hover {
+    background: rgb(255, 133, 63);
+    color: rgb(255, 255, 255);
+  }
+  
+
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  .LoginPop_container1 {
+    padding: 16px;
+    margin: auto;
+  }
+  .LoginPop_container2 {
+    padding: 16px;
+    margin: auto;
+  }
+  
+  .login_loginPart ul li .LoginPop_container1 button{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(28, 77, 13);
+    font-size:14px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(255, 133, 63);
+  }
+
+    .login_loginPart ul li .LoginPop_container1 button:hover{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(49, 141, 21);
+    font-size:14px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(255, 133, 63);
+  }
+  
+  
+  .login_loginPart ul li  a{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(49, 141, 21);
+    font-size:14px;
+    margin: auto;
+    display: flex;
+    padding-left: 100px;
+  }
+
+  .login_loginPart ul li .LoginPop_container2 button{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(207, 63, 6);
+    font-size:14px;
+    width: 40%;
+    display:inline-block;
+    padding: 10px 10px;
+    margin-left: 6.4%;
+    
+    border: 1px solid rgb(238, 237, 236);
+  }
+  .login_loginPart ul li .LoginPop_container2 button:hover{
+    text-decoration: none;
+    color: rgb(240, 234, 229);
+    background: rgb(224, 9, 9);
+    font-size:14px;
+    width: 40%;
+    display:inline-block;
+    padding: 10px 10px;
+    border: 1px solid rgb(238, 237, 236);
+  }
+
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */   
+  .LoginPop_Cont_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(49, 45, 49, 0.8); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .Loginpop_content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  
